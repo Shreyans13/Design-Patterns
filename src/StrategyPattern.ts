@@ -77,6 +77,8 @@ class ModelDuck extends Duck {
 
 
 const run = (): void => {
+  console.log("Strategy Pattern");
+
   let md = new MalladDuck();
   md.performFly();
   md.performQuack();

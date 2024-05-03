@@ -96,6 +96,8 @@ class ChicagoStylePizzaStore extends PizzaStore {
 
 
 const run = (): void => {
+  console.log("Factory Method")
+
   const nystore = new NYStylePizzaStore();
   const chicagoStore = new ChicagoStylePizzaStore();
 

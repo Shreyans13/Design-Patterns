@@ -56,6 +56,7 @@ class PizzaStore {
 }
 
 const run = (): void => {
+  console.log("Simple Factory")
   const pizzaStore = new PizzaStore(new SimplePizzaFactory());
   pizzaStore.orderPizza("cheese");
 };

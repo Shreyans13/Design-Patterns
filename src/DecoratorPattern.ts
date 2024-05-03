@@ -68,6 +68,8 @@ class Mocha extends BrevrageDecorator {
 }
 
 const run = (): void => {
+  console.log("Decorator Pattern")
+
   const brevrage = new Expresso();
   console.log(`${brevrage.getDescription()} = ${brevrage.cost()}`);
 

@@ -139,6 +139,7 @@ class ChicagoPizzaStore extends PizzaStore {
 
 
 const run = (): void => {
+  console.log("Abstract Factory Pattern")
 
   const nystore = new NYPizzaStore();
   const chicagoStore = new ChicagoPizzaStore();

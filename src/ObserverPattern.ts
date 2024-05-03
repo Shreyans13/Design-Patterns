@@ -100,6 +100,7 @@ class StaticDisplay implements Observer, DisplayElement {
 
 const run = (): void => {
   console.log("Observer Pattern")
+
   const weatherData = new WeatherData();
   const currentConditionDisplay = new CurrentConditionDisplay();
   const staticDisplay = new StaticDisplay();
