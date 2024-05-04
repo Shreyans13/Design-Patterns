@@ -5,6 +5,13 @@ import SimpleFactory from "./src/FactoryPattern/SimpleFactory"
 import FactoryMethod from "./src/FactoryPattern/FactoryMethod"
 import AbstractFactoryPatern from "./src/FactoryPattern/AbstractFactoryPattern"
 import SingletonPattern from "./src/SinglePattern"
+import SimpleCommmandPattern from "./src/Command/SimpleCommandPattern"
+import CommandPattern from "./src/Command/CommandPattern"
+
+
+
+
+
 
 console.log("Init Learning")
 StrategyPattern();
@@ -21,3 +28,6 @@ AbstractFactoryPatern();
 console.log("\n---------------------------------------------------------------\n");
 SingletonPattern();
 console.log("\n---------------------------------------------------------------\n");
+SimpleCommmandPattern();
+console.log("\n---------------------------------------------------------------\n");
+CommandPattern();
