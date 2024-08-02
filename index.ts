@@ -7,7 +7,7 @@ import AbstractFactoryPatern from "./src/FactoryPattern/AbstractFactoryPattern"
 import SingletonPattern from "./src/SinglePattern"
 import SimpleCommmandPattern from "./src/Command/SimpleCommandPattern"
 import CommandPattern from "./src/Command/CommandPattern"
-
+import ComplexCommandPattern from "./src/Command/ComplexCommandPattern"
 
 
 
@@ -31,3 +31,13 @@ console.log("\n---------------------------------------------------------------\n
 SimpleCommmandPattern();
 console.log("\n---------------------------------------------------------------\n");
 CommandPattern();
+console.log("\n---------------------------------------------------------------\n");
+ComplexCommandPattern();
+
+
+
+
+
+
+
+
