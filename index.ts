@@ -8,8 +8,8 @@ import SingletonPattern from "./src/SinglePattern"
 import SimpleCommmandPattern from "./src/Command/SimpleCommandPattern"
 import CommandPattern from "./src/Command/CommandPattern"
 import ComplexCommandPattern from "./src/Command/ComplexCommandPattern"
-
-
+import AdapterPattern from "./src/AdapterPattern"
+import FacadePattern from "./src/FacadePattern"
 
 
 
@@ -33,10 +33,10 @@ console.log("\n---------------------------------------------------------------\n
 CommandPattern();
 console.log("\n---------------------------------------------------------------\n");
 ComplexCommandPattern();
-
-
-
-
+console.log("\n---------------------------------------------------------------\n");
+AdapterPattern();
+console.log("\n---------------------------------------------------------------\n");
+FacadePattern()
 
 
 
