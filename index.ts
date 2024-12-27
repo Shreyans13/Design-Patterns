@@ -10,7 +10,7 @@ import CommandPattern from "./src/Command/CommandPattern"
 import ComplexCommandPattern from "./src/Command/ComplexCommandPattern"
 import AdapterPattern from "./src/AdapterPattern"
 import FacadePattern from "./src/FacadePattern"
-
+import Tea from "./src/TemplatePattern"
 
 
 console.log("Init Learning")
@@ -37,7 +37,7 @@ console.log("\n---------------------------------------------------------------\n
 AdapterPattern();
 console.log("\n---------------------------------------------------------------\n");
 FacadePattern()
-
-
+console.log("\n---------------------------------------------------------------\n");
+Tea();
 
 
