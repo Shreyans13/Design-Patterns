@@ -11,7 +11,7 @@ import ComplexCommandPattern from "./src/Command/ComplexCommandPattern"
 import AdapterPattern from "./src/AdapterPattern"
 import FacadePattern from "./src/FacadePattern"
 import Tea from "./src/TemplatePattern"
-
+import { DinnerMenu, LunchMenu, Waitress } from "./src/IteratorPattern"
 
 console.log("Init Learning")
 StrategyPattern();
@@ -39,5 +39,7 @@ console.log("\n---------------------------------------------------------------\n
 FacadePattern()
 console.log("\n---------------------------------------------------------------\n");
 Tea();
-
+console.log("\n---------------------------------------------------------------\n");
+new Waitress(new LunchMenu(), new DinnerMenu())
+console.log("\n---------------------------------------------------------------\n");
 
