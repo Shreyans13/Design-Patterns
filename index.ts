@@ -12,6 +12,7 @@ import AdapterPattern from "./src/AdapterPattern"
 import FacadePattern from "./src/FacadePattern"
 import Tea from "./src/TemplatePattern"
 import { DinnerMenu, LunchMenu, Waitress } from "./src/IteratorPattern"
+import { CompositeMenu, CompositeMenuComponent, CompositeWaitress } from "./src/CompositePattern"
 
 console.log("Init Learning")
 StrategyPattern();
@@ -41,5 +42,7 @@ console.log("\n---------------------------------------------------------------\n
 Tea();
 console.log("\n---------------------------------------------------------------\n");
 new Waitress(new LunchMenu(), new DinnerMenu())
+console.log("\n---------------------------------------------------------------\n");
+new CompositeWaitress(new CompositeMenu("", ""));
 console.log("\n---------------------------------------------------------------\n");
 
